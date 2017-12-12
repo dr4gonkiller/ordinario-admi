@@ -1,6 +1,7 @@
 <?php
 //Definición de variable global
-$url="http://127.0.0.1/angularJsMvcMysqli/";
+//Antes $url="http://127.0.0.1/angularJsMvcMysqli/";
+$url="https://ordinario7k-dr4gonkiller.c9users.io/";
 
 //Definir el código de caracteres
 header('Content-Type: text/html; charset=utf-8');
@@ -19,9 +20,9 @@ setlocale(LC_MONETARY, 'en_US');
 // Define constants for database connectivty
 ////////////////////////////////////////////////////////////////////////////////
 defined('DATABASE_HOST') ? NULL : define('DATABASE_HOST', 'localhost');
-defined('DATABASE_NAME') ? NULL : define('DATABASE_NAME', 'myInfo');
+defined('DATABASE_NAME') ? NULL : define('DATABASE_NAME', 'c9');
 defined('DATABASE_USER') ? NULL : define('DATABASE_USER', 'root');
-defined('DATABASE_PASSWORD') ? NULL : define('DATABASE_PASSWORD', 'root');
+defined('DATABASE_PASSWORD') ? NULL : define('DATABASE_PASSWORD', '');
 
 ////////////////////////////////////////////////////////////////////////////////
 // Define absolute application paths
